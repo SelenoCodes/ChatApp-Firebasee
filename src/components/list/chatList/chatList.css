@@ -1,0 +1,45 @@
+
+
+.chatList{
+    overflow-y: scroll;
+    flex: 1;
+ 
+    
+    .item{
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: rgb(97, 103, 119);
+        padding: 20px 10px;
+        border-radius: 12px;
+        cursor: pointer;
+
+        &.notSeen{
+            background-color: rgb(136, 165, 244);
+        }
+
+        img{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .texts{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            span{
+                font-size: 17px;
+                font-weight: 500;
+            }
+            p{
+                font-size: 15px;
+                font-weight: 300;
+                opacity: 0.5;
+            }
+        }
+    }
+}

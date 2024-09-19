@@ -1,0 +1,35 @@
+.search{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .searchbar{
+        background-color: rgb(97, 103, 119);
+        padding: 15px;
+        border-radius: 30px;
+        flex: 1;
+
+        input{
+            width: 100%;
+            font-size: 16px;
+            background-color: transparent;
+            outline: none;
+            border: none;
+            color: #fff;
+        }
+    }
+    .add{
+        font-size: 25px;
+        color: #fff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: rgb(97, 103, 119);
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
